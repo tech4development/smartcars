@@ -18,25 +18,25 @@
                 <a href="#!" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
                   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Car Insurance</a></li>
-                    <li><a href="badges.html">Car Accessories</a></li>
-                    <li><a href="sass.html">Car Tracking</a></li>
-                    <li><a href="badges.html">Car Importers</a></li>
-                    <li><a href="sass.html">Advertise Car</a></li>
-                    <li><a href="badges.html">My Account</a></li>
-                    <li><a href="sass.html">Pricing</a></li>
-                    <li><a href="badges.html">Login/Register</a></li>
+                    <li><a href="">Car Insurance</a></li>
+                    <li><a href="">Car Accessories</a></li>
+                    <li><a href="">Car Tracking</a></li>
+                    <li><a href="">Car Importers</a></li>
+                    <li><a href="">Advertise Car</a></li>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Login/Register</a></li>
                 </ul>
 
                 <ul class="side-nav" id="mobile-demo">
-                  <li><a href="sass.html">Insurance</a></li>
-                    <li><a href="badges.html">Accessories</a></li>
-                    <li><a href="sass.html">Tracking</a></li>
-                    <li><a href="badges.html">Importers</a></li>
-                    <li><a href="sass.html">Advertise Car</a></li>
-                    <li><a href="badges.html">My Account</a></li>
-                    <li><a href="sass.html">Pricing</a></li>
-                    <li><a href="badges.html">Login/Register</a></li>
+                  <li><a href="">Insurance</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Tracking</a></li>
+                    <li><a href="">Importers</a></li>
+                    <li><a href="">Advertise Car</a></li>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Login/Register</a></li>
                 </ul>
             </div>
         </nav>
