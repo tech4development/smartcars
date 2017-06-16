@@ -3376,6 +3376,10 @@ nav ul a span.badge {
 .section {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-image: url("http://localhost/smartcars/images/search.JPG") !important;
+}
+#search {
+	background-image: url("http://localhost/smartcars/images/search.JPG") !important;
 }
 
 .section.no-pad {
