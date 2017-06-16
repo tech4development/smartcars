@@ -6,17 +6,18 @@
         <title>Starter Template - Materialize</title>
 
         <!-- CSS  -->
-
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
     </head>
     <body>
         <div class="navbar-fixed">
             <ul id="dropdown1" class="dropdown-content">
                 <li><a href="#!">Insurance</a></li>
                 <li><a href="#!">Accessories</a></li>
-                <li class="divider"></li>
+
                 <li><a href="#!">Tracking</a></li>
                 <li><a href="#!">Importers</a></li>
             </ul>
@@ -25,7 +26,7 @@
                     <a href="#!" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<span class="mdi mdi-chevron-down" style="color:red;"></span></a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<span class="mdi mdi-chevron-down right" style="line-height: 66px;"></span></a></li>
                         <li><a href="">Advertise Car</a></li>
                         <li><a href="">My Account</a></li>
                         <li><a href="">Pricing</a></li>
