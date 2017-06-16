@@ -75,38 +75,43 @@ border-radius: 5px;
         </style>
 
         <!-- CSS  -->
-       
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
     </head>
     <body>
         <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper  green darken-4">
-                <a href="#!" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
-                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Car Insurance</a></li>
-                    <li><a href="badges.html">Car Accessories</a></li>
-                    <li><a href="sass.html">Car Tracking</a></li>
-                    <li><a href="badges.html">Car Importers</a></li>
-                    <li><a href="sass.html">Advertise Car</a></li>
-                    <li><a href="badges.html">My Account</a></li>
-                    <li><a href="sass.html">Pricing</a></li>
-                    <li><a href="badges.html">Login/Register</a></li>
-                </ul>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">Insurance</a></li>
+                <li><a href="#!">Accessories</a></li>
 
-                <ul class="side-nav" id="mobile-demo">
-                  <li><a href="sass.html">Insurance</a></li>
-                    <li><a href="badges.html">Accessories</a></li>
-                    <li><a href="sass.html">Tracking</a></li>
-                    <li><a href="badges.html">Importers</a></li>
-                    <li><a href="sass.html">Advertise Car</a></li>
-                    <li><a href="badges.html">My Account</a></li>
-                    <li><a href="sass.html">Pricing</a></li>
-                    <li><a href="badges.html">Login/Register</a></li>
-                </ul>
-            </div>
-        </nav>
+                <li><a href="#!">Tracking</a></li>
+                <li><a href="#!">Importers</a></li>
+            </ul>
+            <nav>
+                <div class="nav-wrapper  green darken-4">
+                    <a href="#!" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<span class="mdi mdi-chevron-down right" style="line-height: 66px;"></span></a></li>
+                        <li><a href="">Advertise Car</a></li>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Login/Register</a></li>
+                    </ul>
+
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="">Insurance</a></li>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Tracking</a></li>
+                        <li><a href="">Importers</a></li>
+                        <li><a href="">Advertise Car</a></li>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Login/Register</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
