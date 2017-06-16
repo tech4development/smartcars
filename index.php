@@ -6,10 +6,10 @@
         <title>Starter Template - Materialize</title>
 
         <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        
+        <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class="navbar-fixed">
@@ -138,7 +138,7 @@
         <div class="row yellow" style="margin-bottom: 0px !important;">
             <div class="col s12 m4">
                         <div class="icon-block">
-                            <h2 class="center light-green-text"><i class="material-icons large">flash_on</i></h2>
+                            <h2 class="center light-green-text"><span class="mdi mdi-car" style="color:red;"></span></h2>
                             <h5 class="center">Hustle Free</h5>
 
                             <p class="light">For your peace of mind, we have partnered with 1000(s) of trusted dealers and individuals to ensure that you get quality and affordable cars at the best market rates. Whether you are looking for a new or a used car, we are sure you will find it here.</p>
@@ -147,7 +147,7 @@
 
                     <div class="col s12 m4">
                         <div class="icon-block">
-                            <h2 class="center light-green-text"><i class="material-icons large">person_pin</i></h2>
+                            <h2 class="center light-green-text"><span class="mdi mdi-account-multiple" style="color:red;"></span></h2>
                             <h5 class="center">Who We Are</h5>
 
                             <p class="light">With history-checked cars and innovative search options, there are many ways smartcars.co.ke can help you to find your next car. We list a wide range of new and used cars for sale from trusted dealers and individuals, so you can be confident of finding the right car for your needs.</p>
@@ -156,7 +156,7 @@
 
                     <div class="col s12 m4">
                         <div class="icon-block">
-                            <h2 class="center light-green-text"><i class="material-icons large">settings</i></h2>
+                            <h2 class="center light-green-text"><span class="mdi mdi-home-map-marker" style="color:red;"></span></h2>
                             <h5 class="center">You Are Home</h5>
 
                             <p class="light">Buying and selling your vehicle is now even easier through smartcars.co.ke. You can quickly and easily setup an account to advertise your vehicle for sale at a small fee.</p>
