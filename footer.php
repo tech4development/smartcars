@@ -89,19 +89,18 @@
 
     var map;
     function initialize() {
-        var mapOptions = {
-            zoom: 15,
+    var mapOptions = {
+    zoom: 15,
             mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById('map-canvas'),
-                mapOptions);
-        // try HTML5 geolocation
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function (position) {
-                var pos = new google.maps.LatLng(position.coords.latitude,
-                        position.coords.longitude);
-
-                var infowindow = new google.maps.InfoWindow({
+    };
+            map = new google.maps.Map(document.getElementById('map-canvas'),
+                    mapOptions);
+            // try HTML5 geolocation
+            if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+    var pos = new google.maps.LatLng(position.coords.latitude,
+            position.coords.longitude);
+            var infowindow = new google.maps.InfoWindow({
                     map: map,
                     position: pos,
                     content: 'Location found using HTML5.'
@@ -135,11 +134,8 @@
     }
     google.maps.event.addDomListener(window, 'load', initialize);
 
-</script>
-</script>
-
 <!--start of script for tab-->
-  <script>
+
 function openCity(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -160,11 +156,23 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-</script>
 
-<script>
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+(function($) {
+		$(function() {
+
+$('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      hover: true, // Activate on hover
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'right' // Displays dropdown with edge aligned to the left of button
+    }
+  );
+
+		}); // End Document Ready
+})(jQuery); // End of jQuery name space
 </script>
 
 <!--end of script for tab-->
