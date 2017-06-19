@@ -72,6 +72,27 @@ border-radius: 5px;
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #000 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000 !important;
+  opacity: 1 !important;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
         </style>
 
         <!-- CSS  -->

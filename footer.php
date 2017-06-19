@@ -50,8 +50,8 @@
             </div>
             <div class="col l4 s12">
                 <h5 class="center white-text blue lighten-2">Social Links</h5>
-                <p><span class="mdi mdi-48px mdi-facebook-box" style="color: #006dc3; margin-right: 10%;margin-left: 10%;"></span><span class="mdi mdi-48px mdi-twitter-box" style="color: #98cdf7; margin-right: 10%;"></span><span class="mdi mdi-48px mdi-google-plus-box" style="color: rgb(236, 0, 0); margin-right: 10%;"></span><span class="mdi mdi-48px mdi-linkedin-box" style="color: #007bb6;"></span></p>
-                <p ><span class="mdi mdi-48px mdi-instagram" style="color: rgb(197, 39, 106); margin-right: 10%;margin-left: 10%;"></span><span class="mdi mdi-48px mdi-youtube-play" style="color: red; margin-right: 10%;"></span></p>
+                <p><span class="mdi mdi-48px mdi-facebook-box" style="color: #006dc3; margin-right: 10%;margin-left: 10%;"></span><span class="mdi mdi-48px mdi-twitter-box" style="color: #98cdf7; margin-right: 10%;"></span><span class="mdi mdi-48px mdi-google-plus-box" style="color: rgb(236, 0, 0); margin-right: 10%;"></span><span class="mdi mdi-48px mdi-linkedin-box" style="color: #007bb6;"></span>
+                <span class="mdi mdi-48px mdi-instagram" style="color: rgb(197, 39, 106); margin-right: 10%;margin-left: 10%;"></span><span class="mdi mdi-48px mdi-youtube-play" style="color: red; margin-right: 10%;"></span></p>
 
             </div>
 
