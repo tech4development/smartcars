@@ -4,8 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
         <title>Smartcars</title>
-        
-            <style>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<style>
    /* Style the tab */
 div.tab {
     overflow: hidden;
@@ -113,7 +113,7 @@ html, html a {
             </ul>
             <nav>
                 <div class="nav-wrapper  green darken-4">
-                    <a href="#!" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
+                    <a href="index.php" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<span class="mdi mdi-chevron-down right" style="line-height: 66px;"></span></a></li>
