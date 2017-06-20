@@ -19,17 +19,18 @@
 <div id="London" class="tabcontent">
   
  <div class="row">
-                    <div class="col l3 s2">
-  <select class="browser-default">
+     <form action="" method="POST">
+                    <div class="col l0 s2">
+  <select class="browser-default" style="width: 130px;">
     <option value="">Select Make</option>
     <option value="2">Option 2</option>
     <option value="3">Option 3</option>
   </select>
       </div>
      
-           <div class="col l3 s2">
+           <div class="col l0 s2">
              
-           <select class="browser-default">
+           <select class="browser-default" style="width: 130px;">
     <option value="">Select Model</option>
     <option value="2">Option 2</option>
     <option value="3">Option 3</option>
@@ -37,12 +38,18 @@
       </div>
      
        <div class="col l3 s2">
-      <input type="text" name="make" value="">
+      <input type="text" name="make" value="" placeholder="Minimum Price in Ksh"  style="width: 160px; color: #000;">
+      </div>
+     <div class="col l0 s2">
+      <input type="text" name="make" value="" placeholder="Maximum Price in Ksh" style="width: 160px;">
       </div>
      
       <div class="col l0 s2">
-      <input type="submit" name="search" value="Search" style="border-radius: 5px; width: 100px; color: white; background-color: #16a1ed; height: 2.9rem; margin-top: 15px; border: 1px solid #16a1ed; font-weight: 400; font-size: 14px;">
+      <input type="submit" name="search" value="Search for New of Used" style="margin-left: 30px; border-radius: 5px; width: 200px; color: white; background-color: #ff8700; height: 2.9rem; margin-top: 15px; border: 1px solid #ff8700; font-weight: 400; font-size: 18px;">
+      
       </div>
+         
+     </form>
       </div>
   
 </div>
@@ -50,42 +57,86 @@
 <div id="Paris" class="tabcontent">
    
  <div class="row">
-                    <div class="col l3 s2">
-                        <input type="text" name="make" value="">
+     <form action="form.php" method="POST">
+                    <div class="col l0 s2">
+  <select class="browser-default" style="width: 130px;">
+    <option value="">Select Make</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
       </div>
      
-           <div class="col l3 s2">
-      <input type="text" name="make" value="">
+           <div class="col l0 s2">
+             
+           <select class="browser-default" style="width: 130px;">
+    <option value="">Select Model</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
       </div>
      
        <div class="col l3 s2">
-      <input type="text" name="make" value="">
+      <input type="text" name="make" value="" placeholder="Minimum Price in Ksh"  style="width: 160px; color: #000;">
+      </div>
+     <div class="col l0 s2">
+      <input type="text" name="make" value="" placeholder="Maximum Price in Ksh" style="width: 160px;">
       </div>
      
       <div class="col l0 s2">
-      <input type="submit" name="search" value="Search" style="width: 100px; color: white; background-color: #16a1ed; height: 35px; margin-top: 20px; border: 1px solid #16a1ed; font-weight: 400; font-size: 14px;">
+      <input type="submit" name="search" value="Search for New of Used" style="margin-left: 30px; border-radius: 5px; width: 200px; color: white; background-color: #ff8700; height: 2.9rem; margin-top: 15px; border: 1px solid #ff8700; font-weight: 400; font-size: 18px;">
+      
       </div>
+         </form>
+         
       </div>
 </div>
 
 <div id="Tokyo" class="tabcontent">
     
  <div class="row">
-                    <div class="col l3 s2">
-                        <input type="text" name="make" value="">
+     <form action="form.php" method="POST">
+                    <div class="col l2 s2">
+  <select class="browser-default" style="width: 180px;">
+    <option value="">Select Make</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
       </div>
      
-           <div class="col l3 s2">
-      <input type="text" name="make" value="">
+           <div class="col l2 s2">
+             
+           <select class="browser-default" style="width: 180px;">
+    <option value="">Select Model</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
       </div>
      
-       <div class="col l3 s2">
-      <input type="text" name="make" value="">
+       <div class="col l2 s2">
+      <input type="text" name="make" value="" placeholder="Your Budget in Ksh"  style="width: 160px; color: #000;">
+      </div>
+     <div class="col l2 s2">
+      <input type="text" name="make" value="" placeholder="Your Full Name" style="width: 270px;">
       </div>
      
-      <div class="col l0 s2">
-      <input type="submit" name="search" value="Search" style="width: 100px; color: white; background-color: #16a1ed; height: 35px; margin-top: 20px; border: 1px solid #16a1ed; font-weight: 400; font-size: 14px;">
+    
+     
       </div>
+    
+     <div class="row">
+                   <div class="col l2 s2">
+      <input type="text" name="make" value="" placeholder="Your Email Address" style="width: 250px;">
+      </div>
+         
+     <div class="col l2 s2">
+      <input type="text" name="make" value="" placeholder="Your Mobile Number" style="width: 250px; margin-left: 100px;">
+      </div>
+     
+      <div class="col l2 s2">
+      <input type="submit" name="search" value="Submit your Enquire" style="margin-left: 195px; border-radius: 5px; width: 270px; color: white; background-color: #ff8700; height: 2.9rem; margin-top: 15px; border: 1px solid #ff8700; font-weight: 400; font-size: 18px;">
+      
+      </div>
+     </form>
       </div>
 </div>    </div>
         <br><br>
