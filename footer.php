@@ -147,6 +147,10 @@ $('.dropdown-button').dropdown({
 
                 }); // End Document Ready
 })(jQuery); // End of jQuery name space
+//<!--end of script for tab-->
+
+
 </script>
 
-<!--end of script for tab-->
+
+
