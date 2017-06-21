@@ -2,7 +2,7 @@
 <div class="container">
     <h4 class="center orange-text">Want us to sell your car for you? Follow the steps below.</h4>
     <div class="center" style="margin-bottom: 20px;">
-        <a href="guru.php" class="waves-effect waves-light btn green darken-4 center">Book a Guru <span class="mdi mdi-chevron-double-right" style=""></span></a>
+        <a href="guru.php" class="btn pulse waves-effect waves-light btn green darken-4 center">Book a Guru <span class="mdi mdi-chevron-double-right" style=""></span></a>
 
     </div>
     <ul class="timeline">
@@ -21,12 +21,12 @@
                
                 <div class="timeline-body">
                     <div class="card-content">
-                        <p>A small fee of Ksh. 2000 is payable upfront and lets us match you up with a dedicated Champ </p>
+                        <p class="flow-text">A small fee of Ksh. 2000 is payable upfront and lets us match you up with a dedicated Champ </p>
                         <h5>All payments are made through.</h5>
                     </div>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/mpesa.png">
-                    </div></div>
+                    
+                      <img class="materialboxed responsive-img" data-caption="Our M-PESA Paybill" width="350" src="images/mpesa.png">
+                   </div>
             </div>
         </li>
         <li>
