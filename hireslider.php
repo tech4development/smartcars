@@ -1,28 +1,62 @@
-<div class="row" style="margin-top: 20px;   width: 90%;">
-    <div class="col s12 m4">
-        <div class="icon-block">
-            <h2 class="center light-green-text"><span class="mdi mdi-car" style="color:red;"></span></h2>
-            <h5 class="center">Hustle Free</h5>
+<div class="container text-center">
+    
+<div class="carousel slide row" data-ride="carousel" data-type="multi" data-interval="6000" id="fruitscarousel">
 
-            <p class="light">For your peace of mind, we have partnered with 1000(s) of trusted dealers and individuals to ensure that you get quality and affordable cars at the best market rates. Whether you are looking for a new or a used car, we are sure you will find it here.</p>
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+            <div class="carousel-caption">
+        
+    <p style="color: #0C6EED;"><i class="mdi mdi-car"></i>LA is always so much fun!</p>
+       <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>LA is always so much fun!</p>
+      </div></a>
+            </div>
         </div>
+       
+        <div class="item">
+            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+              <div class="carousel-caption">
+        
+                <p style="color: #0C6EED;"><i class="mdi mdi-car"></i>LA is always so much fun!</p>
+        <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>LA is always so much fun!</p>
+      </div></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+              <div class="carousel-caption">
+        
+       <p style="color: #0C6EED;"><i class="mdi mdi-car"></i>LA is always so much fun!</p>
+       <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>LA is always so much fun!</p>
+      </div></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+                 <div class="carousel-caption">
+        
+     <p style="color: #0C6EED;"><i class="mdi mdi-car"></i>LA is always so much fun!</p>
+       <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>LA is always so much fun!</p>
+      </div></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+               <div class="carousel-caption">
+        
+     <p style="color: #0C6EED;"><i class="mdi mdi-car"></i>LA is always so much fun!</p>
+        <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>LA is always so much fun!</p>
+      </div></a>
+            </div>
+        </div>
+        
+        
     </div>
 
-    <div class="col s12 m4">
-        <div class="icon-block">
-            <h2 class="center light-green-text"><span class="mdi mdi-account-multiple" style="color:red;"></span></h2>
-            <h5 class="center">Who We Are</h5>
+    <a class="left carousel-control" href="#fruitscarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+    <a class="right carousel-control" href="#fruitscarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a> 
 
-            <p class="light">With history-checked cars and innovative search options, there are many ways smartcars.co.ke can help you to find your next car. We list a wide range of new and used cars for sale from trusted dealers and individuals, so you can be confident of finding the right car for your needs.</p>
-        </div>
-    </div>
-
-    <div class="col s12 m4">
-        <div class="icon-block">
-            <h2 class="center light-green-text"><span class="mdi mdi-home-map-marker" style="color:red;"></span></h2>
-            <h5 class="center">You Are Home</h5>
-
-            <p class="light">Buying and selling your vehicle is now even easier through smartcars.co.ke. You can quickly and easily setup an account to advertise your vehicle for sale at a small fee.</p>
-        </div>
-    </div>
 </div>
+</div>
+ 
+
