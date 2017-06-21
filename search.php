@@ -1,5 +1,5 @@
 <!--starter-->
-<div class="section" id="search" style="background: url(http://localhost/smartcars/images/mazda.JPG) no-repeat center center fixed;
+<div class="section hide-on-small-only" id="search" style="background: url(http://localhost/smartcars/images/mazda.JPG) no-repeat center center fixed;
   background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
     
     <div class="section no-pad-bot" id="index-banner">

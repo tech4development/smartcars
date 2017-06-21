@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+<!--    script for advertisers logo slider-->
+    <link href="css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+    <!--    script for advertisers logo slider-->
+    
 <script>
 jQuery(document).ready(function() {
         
@@ -102,9 +108,7 @@ padding-left: 10px;
 		display:block;
 	}
 }
-</style>
-            <style>
-                
+
    /* Style the tab */
 div.tab {
     overflow: hidden;
@@ -200,6 +204,9 @@ html, html a {
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
         <script src="http://maps.googleapis.com/maps/api/js"></script>
+        
+        
+        
     </head>
     <body>
         <div class="navbar-fixed">
@@ -212,7 +219,7 @@ html, html a {
             </ul>
             <nav>
                 <div class="nav-wrapper  green darken-4">
-                    <a href="#!" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
+                    <a href="index.php" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<span class="mdi mdi-chevron-down right" style="line-height: 66px;"></span></a></li>
