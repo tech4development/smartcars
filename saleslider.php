@@ -1,3 +1,4 @@
+
 <div class="container text-center">
     
 <div class="carousel slide row" data-ride="carousel" data-type="multi" data-interval="6000" id="fruitscarousel">

@@ -2,6 +2,7 @@
 
 include 'header.php';
 include 'search.php';
+include 'advertisers.php';
 include 'searchmake.php';
 include 'champ.php';
 include 'saleslider.php';

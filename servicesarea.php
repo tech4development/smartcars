@@ -1,10 +1,5 @@
 <div class="row" style="margin-top: 20px;   width: 90%;">
-    <div col s12>
-        <h4 class="center orange-text">
-            Services
-        </h4>
-    </div>
-    <div class="divider" style="width:50%; margin-left: 25%;" ></div>
+    
     <div class="col s12 m3">
         <div class="icon-block">
             <h2 class="center light-green-text"><img src="images/gps.png" style="width: 100px; height: 100px;"></h2>
