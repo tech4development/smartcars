@@ -60,7 +60,7 @@
         <div class="row" style="margin-left: 5%; margin-right: 5%;">
             <div class="col l4 s12">
                 <h5 class="center white-text blue lighten-2">Important Links</h5>
-                <ul>
+                <ul style="margin-left: 5%;">
                     <li><a class="grey-text text-lighten-4" href="#!">How it Works</a></li>
                     <li><a class="grey-text text-lighten-4" href="#!">How to upload a car</a></li>
                     <li><a class="grey-text text-lighten-4" href="#!">Payment Packages</a></li>
