@@ -5,7 +5,106 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
         <title>Smartcars</title>
         
+         <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+         
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script>
+jQuery(document).ready(function() {
+        
+	jQuery('.carousel[data-type="multi"] .item').each(function(){
+		var next = jQuery(this).next();
+		if (!next.length) {
+			next = jQuery(this).siblings(':first');
+		}
+		next.children(':first-child').clone().appendTo(jQuery(this));
+	  
+		for (var i=0;i<2;i++) {
+			next=next.next();
+			if (!next.length) {
+				next = jQuery(this).siblings(':first');
+			}
+			next.children(':first-child').clone().appendTo($(this));
+		}
+	});
+        
+});
+</script>
+<style>
+   .carousel-caption {
+/*       background-color: #2196F3 ;*/
+background-color: #eee ;
+width: 90%;
+margin-left: -47px;
+margin-bottom: -100px;
+    } 
+       .carousel-caption p {
+padding-left: 10px;
+    } 
+    
+.carousel-control.left, .carousel-control.right {
+	background-image:none;
+}
+
+.img-responsive{
+	width:100%;
+	height:auto;
+}
+
+@media (min-width: 992px ) {
+	.carousel-inner .active.left {
+		left: -25%;
+	}
+	.carousel-inner .next {
+		left:  25%;
+	}
+	.carousel-inner .prev {
+		left: -25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px ) {
+	.carousel-inner .active.left {
+		left: -33.3%;
+	}
+	.carousel-inner .next {
+		left:  33.3%;
+	}
+	.carousel-inner .prev {
+		left: -33.3%;
+	}
+	.active > div:first-child {
+		display:block;
+	}
+	.active > div:first-child + div {
+		display:block;
+	}
+	.active > div:last-child {
+		display:none;
+	}
+}
+
+@media (max-width: 767px) {
+	.carousel-inner .active.left {
+		left: -100%;
+	}
+	.carousel-inner .next {
+		left:  100%;
+	}
+	.carousel-inner .prev {
+		left: -100%;
+	}
+	.active > div {
+		display:none;
+	}
+	.active > div:first-child {
+		display:block;
+	}
+}
+</style>
             <style>
+                
    /* Style the tab */
 div.tab {
     overflow: hidden;
