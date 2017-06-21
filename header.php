@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+<!--    script for advertisers logo slider-->
+    <link href="css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+    <!--    script for advertisers logo slider-->
+    
 <script>
 jQuery(document).ready(function() {
         
@@ -198,6 +204,9 @@ html, html a {
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
         <script src="http://maps.googleapis.com/maps/api/js"></script>
+        
+        
+        
     </head>
     <body>
         <div class="navbar-fixed">
