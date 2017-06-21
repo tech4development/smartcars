@@ -13,7 +13,7 @@
               <div class="tab">
 <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">CAR FOR SALE</button>
   <button id="tab1" class="tablinks" onclick="openCity(event, 'Paris')">CAR FOR HIRE</button>
-  <button id="tab1" class="tablinks" onclick="openCity(event, 'Tokyo')">TELL US WHAT YOU ARE LOOKING FOR</button>
+  <button id="tab1" class="tablinks" onclick="openCity(event, 'Tokyo')">TELL US WHAT YOU ARE LOOKING FOR WE WILL GET IT FOR YOU</button>
 </div>
 
 <div id="London" class="tabcontent">
