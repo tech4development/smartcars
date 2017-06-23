@@ -76,7 +76,7 @@
 
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
+                            <input name="mail" id="email" type="email" class="validate">
                             <label for="email" style="padding: 2px;">Email</label>
                         </div>
                         <div class="row center" >

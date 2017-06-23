@@ -32,9 +32,9 @@ class SmartcarDB extends mysqli {
         parent::set_charset('utf-8');
     }
 
-    public function create_subscription($email) {
+    public function create_subscription($email){
         $email = $this->real_escape_string($email);
-        $this->query("INSERT INTO subscription(email) VALUES ('" . $email . "')");
+        $this->query("INSERT INTO subscription (email) VALUES ('" . $email . "')");
     }
 
 }
