@@ -72,16 +72,15 @@
             </div>
             <div class="col l4 s12">
                 <h5 class="center white-text blue lighten-2">Subscribe to news and updates</h5>
-                <form class="col s12" style="border: 1px solid #ddd;">
-
+                <form class="col s12" style="border: 1px solid #ddd;" action="subscription.php" method="post">
 
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="email" type="email" class="validate" style="width:100%;">
+                            <input id="email" type="email" class="validate">
                             <label for="email" style="padding: 2px;">Email</label>
                         </div>
                         <div class="row center" >
-                            <button class="btn waves-effect waves-light" type="submit" name="action" style="width:100%;">Subscribe
+                            <button class="btn waves-effect waves-light" type="submit" style="width:100%;">Subscribe
                                 <i class="material-icons right">send</i>
                             </button>
                         </div>

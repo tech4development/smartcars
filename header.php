@@ -6,7 +6,7 @@
         <title>Smartcars</title>
         
          <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-         
+         <link rel="icon" type="image/gif" href="images/favicon.png" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
