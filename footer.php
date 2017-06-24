@@ -19,7 +19,7 @@
         width: 100%;
         margin-bottom: 0px;
     }
-    #email{
+    #mail{
         border: 1px solid #ddd;
         border-radius: 0px;
         /* padding-top: 5px; */
@@ -76,7 +76,7 @@
 
                     <div class="row">
                         <div class="input-field col s12">
-                            <input name="mail" id="email" type="email" class="validate">
+                            <input name="mail" id="mail" type="email" class="validate">
                             <label for="email" style="padding: 2px;">Email</label>
                         </div>
                         <div class="row center" >

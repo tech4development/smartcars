@@ -3,10 +3,10 @@
 class SmartcarDB extends mysqli {
 
     private static $instance = null;
-    private $user = "root";
-    private $pass = "";
-    private $dbName = "smartcardb";
-    private $dbHost = "localhost";
+    private $user = "smartcar_new";
+    private $pass = "]V9W6=hT#wbM";
+    private $dbName = "smartcarnew";
+    private $dbHost = "88.99.28.154";
 
     public static function getInstance() {
         if (!self::$instance instanceof self) {
