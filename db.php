@@ -5,7 +5,7 @@ class SmartcarDB extends mysqli {
     private static $instance = null;
     private $user = "root";
     private $pass = "";
-    private $dbName = "smartcardb";
+    private $dbName = "smartcar_vehicles";
     private $dbHost = "localhost";
 
     public static function getInstance() {
@@ -32,9 +32,13 @@ class SmartcarDB extends mysqli {
         parent::set_charset('utf-8');
     }
 
-    public function create_subscription($email){
+    public function create_subscription($email) {
         $email = $this->real_escape_string($email);
         $this->query("INSERT INTO subscription (email) VALUES ('" . $email . "')");
+    }
+
+    public function get_insurors() {
+        return $this->query("SELECT * FROM insurance_agentsHide");
     }
 
 }
