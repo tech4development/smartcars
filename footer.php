@@ -13,6 +13,18 @@
         height: 250px;
         width: 100%;
     }
+    .social{
+
+        bottom:0;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    #mail{
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        /* padding-top: 5px; */
+        background-color: #fff;
+    }
 </style>
 <div class="row yellow" style="margin-bottom: 0px !important; text-align: center;">
     <div class="col s12 m4">
@@ -48,7 +60,7 @@
         <div class="row" style="margin-left: 5%; margin-right: 5%;">
             <div class="col l4 s12">
                 <h5 class="center white-text blue lighten-2">Important Links</h5>
-                <ul>
+                <ul style="margin-left: 5%;">
                     <li><a class="grey-text text-lighten-4" href="#!">How it Works</a></li>
                     <li><a class="grey-text text-lighten-4" href="#!">How to upload a car</a></li>
                     <li><a class="grey-text text-lighten-4" href="#!">Payment Packages</a></li>
@@ -59,9 +71,22 @@
                 </ul>
             </div>
             <div class="col l4 s12">
-                <h5 class="center white-text blue lighten-2">Social Links</h5>
-                <p><span class="mdi mdi-48px mdi-facebook-box" style="color: #006dc3; margin-right: 10%;margin-left: 10%;"></span><span class="mdi mdi-48px mdi-twitter-box" style="color: #98cdf7; margin-right: 10%;"></span><span class="mdi mdi-48px mdi-google-plus-box" style="color: rgb(236, 0, 0); margin-right: 10%;"></span><span class="mdi mdi-48px mdi-linkedin-box" style="color: #007bb6;"></span>
-                    <span class="mdi mdi-48px mdi-instagram" style="color: rgb(197, 39, 106); margin-right: 10%;margin-left: 10%;"></span><span class="mdi mdi-48px mdi-youtube-play" style="color: red; margin-right: 10%;"></span></p>
+                <h5 class="center white-text blue lighten-2">Subscribe to news and updates</h5>
+                <form class="col s12" style="border: 1px solid #ddd;" action="subscription.php" method="post">
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input name="mail" id="mail" type="email" class="validate">
+                            <label for="email" style="padding: 2px;">Email</label>
+                        </div>
+                        <div class="row center" >
+                            <button class="btn waves-effect waves-light" type="submit" style="width:100%;">Subscribe
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
 
             </div>
 
@@ -73,61 +98,55 @@
             </div>
         </div>
     </div>
-    <div class="footer-copyright">
-        <div class="container">
-            Made by <a class="orange-text text-lighten-3" href="http://t4d.co.ke">T4D</a>
-        </div>
+    <div class=" social row ">
+        <a href="#"> <div class="col s3 center white-text" style="background-color: #3b5998;"> <img src="images/facebook.png"  style="width:50px; height: 50px;"> Facebook</div></a> 
+        <a href="#"><div class="col s3 center white-text"  style="background-color: #0084b4;"><img src="images/twitter.png"  style="width:50px; height: 50px;"> Twitter</div></a> 
+        <a href="#"> <div class="col s3 center white-text" style="background-color: #d34836;"><img src="images/google+.png"  style="width:50px; height: 50px;"> Google+</div></a> 
+        <a href="#"><div class="col s3 center white-text" style="background-color: #0077B5;"><img src="images/linkedin.png"  style="width:50px; height: 50px;"> Linkedin</div></a> 
     </div>
+
 </footer>
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKiOwaa79v0mOhDRmN-RdH39Hjb1_3ULk&callback=initMap" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKiOwaa79v0mOhDRmN-RdH39Hjb1_3ULk&callback=initMap" type="text/javascript"></script>
 </body>
-    </html>
+</html>
 <script>
-        $(document).ready(function () {
-        $('.slider').slider();
-        $(".button-collapse").sideNav();
-        $(".button-collapse").sideNav();
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $(document).ready(function () {
+    $('.slider').slider();
+    $(".button-collapse").sideNav();
+    $(".button-collapse").sideNav();
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
     $(".dropdown-button").dropdown();
     });
-
-        function initMap() {
-
-        var uluru = {lat: -1.264174, lng: 36.790321};
-            var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 10,
-        center: uluru
-        });
-            var marker = new google.maps.Marker({
-            position: uluru,
-        map: map
+    function  initMap() {         var uluru = {lat: - 1.264174, lng:             36.790321}; var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15, center: uluru
     });
+    var marker = new google.maps.Marker({
+            position: uluru, map: map});
     }
 
 <!--start of script for tab-->
-    
-        function openCity(evt, cityName) {
+            
+            function openCity(evt, cityName) {
             // Declare all variables
             var i, tabcontent, tablinks;
-
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+    tabcontent[i].style.display = "none";
             }
             
             // Get all elements with class="tablinks" and remove the class "active"
-tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                
-                // Show the current tab, and add an "active" class to the button that opened the tab
-                    document.getElementById(cityName).style.display = "block";
+    }
+    
+    // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 

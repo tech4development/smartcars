@@ -1,6 +1,6 @@
 <?php
-
 include 'header.php';
+include_once 'db.php';
 include 'search.php';
 include 'advertisers.php';
 include 'searchmake.php';
@@ -10,6 +10,7 @@ include 'hireslider.php';
 include 'servicesarea.php';
 include 'accessoriesarea.php';
 include 'footer.php';
+
 
 ?>
         
