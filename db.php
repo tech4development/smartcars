@@ -73,14 +73,75 @@ define('DB_NAME', 'smartcar_vehicles');
       public function get_car_by_make($make) {
           //$make1 = $this->real_escape_string($make);        
         //return $this->query("SELECT * FROM car WHERE make=$make1");
-           $stmt = $this->con->prepare("SELECT * FROM car WHERE make=?");
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE make=? AND display_status=1");
         $stmt->bind_param("s",$make);
        $stmt->execute();
         $result = $stmt->get_result();
         //$stmt->close();
         return $result;
     }
+    
+       public function get_car_by_search($car_make,$car_model,$min_price,$max_price) {
+          //$make1 = $this->real_escape_string($make);        
+        //return $this->query("SELECT * FROM car WHERE make=$make1");
+             if ($car_make !=false AND $car_model !=false AND $min_price !=false){
+              
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE (make=? AND model=? AND actual_amount >=? AND display_status=1) ");
+        $stmt->bind_param("sss",$car_make,$car_model,$min_price);
+         $stmt->execute();
+        $result = $stmt->get_result();
+        return $result;
+           }
+           
+                elseif ($car_make !=false AND $min_price !=false){
+              
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE (make=? AND actual_amount >=? AND display_status=1) ");
+        $stmt->bind_param("ss",$car_make,$min_price);
+         $stmt->execute();
+        $result = $stmt->get_result();
+        return $result;
+           }
+           
+                elseif ($car_make !=false AND $car_model !=false AND $max_price !=false){
+              
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE (make=? AND model=? AND actual_amount <=? AND display_status=1) ");
+        $stmt->bind_param("sss",$car_make,$car_model,$max_price);
+         $stmt->execute();
+        $result = $stmt->get_result();
+        return $result;
+           }
+           
+                elseif ($car_make !=false AND $max_price !=false){
+              
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE (make=? AND actual_amount <=? AND display_status=1) ");
+        $stmt->bind_param("ss",$car_make,$max_price);
+         $stmt->execute();
+        $result = $stmt->get_result();
+        return $result;
+           }
+           
+           elseif ($car_make !=false AND $car_model !=false){
+              
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE (make=? AND model=? AND display_status=1)");
+        $stmt->bind_param("ss",$car_make,$car_model);
+         $stmt->execute();
+        $result = $stmt->get_result();
+        return $result;
+           }
+            elseif ($car_make !=false){
+              
+           $stmt = $this->con->prepare("SELECT * FROM car WHERE make=? AND display_status=1");
+        $stmt->bind_param("s",$car_make);
+         $stmt->execute();
+        $result = $stmt->get_result();
+        return $result;
+           }
+      
+        //$stmt->close();
+        
+    }
 
 }
+
 ?>
 
