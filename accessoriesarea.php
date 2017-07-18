@@ -1,8 +1,5 @@
 <style>
     .slant{
-
-    }
-    .slant{
         -webkit-transform:skewX(20deg);
         -ms-transform:skewX(20deg);
         transform:skewX(20deg);

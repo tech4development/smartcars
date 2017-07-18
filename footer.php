@@ -111,8 +111,6 @@
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKiOwaa79v0mOhDRmN-RdH39Hjb1_3ULk&callback=initMap" type="text/javascript"></script>
-</body>
-</html>
 <script>
     $(document).ready(function () {
     $('.slider').slider();
@@ -170,6 +168,9 @@ $('.dropdown-button').dropdown({
 
 
 </script>
+</body>
+</html>
+
 
 
 
