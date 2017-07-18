@@ -43,7 +43,7 @@
 <div class="row blue" id="searchbymake" style="margin-top: 20px;   width: 90%;">
     <h4></h4>
     <p id="makeP_1" sytle="font-size: 20px !important;">
-        <a href="cars.php?make=Subaru&amp;item=car" id="makeA_13">Search by make >></a>
+        <a href="cars.php?make=Subaru&amp;item=car" id="makeA_13">Search by make: </a>
         <a href="cars.php?make=Subaru&amp;item=car" id="makeA_2">Subaru</a> | <a href="cars.php?make=Toyota&amp;item=car" id="makeA_3">Toyota</a> | <a href="cars.php?make=Jaguar&amp;item=car" id="makeA_4">Jaguar</a> | <a href="cars.php?make=Nissan&amp;item=car" id="makeA_5">Nissan</a> | <a href="cars.php?make=Chevrolet&amp;item=car" id="makeA_6">Chevrolet</a> | <a href="cars.php?make=Mercedes&amp;item=car" id="makeA_7">Mercedes</a> | <a href="cars.php?make=Suzuki&amp;item=car" id="makeA_8">Suzuki</a> | <a href="cars.php?make=Mitsubishi&amp;item=car" id="makeA_9">Mitsubishi</a> | <a href="cars.php?make=Jeep&amp;item=car" id="makeA_10">Jeep</a> | <a href="cars.php?make=BMW&amp;item=car" id="makeA_11">BMW</a> | <a href="cars.php?make=Volkswagen&amp;item=car" id="makeA_12">Volkswagen</a>
     </p>
 </div>

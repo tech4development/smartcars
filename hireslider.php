@@ -17,12 +17,12 @@ $counter =0;
             echo '
        
         <div class="item active">
-            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+           <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="http://smartcars.co.ke/admin/uploads/'.$row['image_path'].'" class="img-responsive">
             <div class="carousel-caption">
         
-<p style="color: #0C6EED;"><i class="mdi mdi-car"></i>'.substr($row["title"], 0, 35).'</p>
-        <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>Ksh '.$actual_amount.'</p>
-      </div></a>
+<p style="color: #1169F3;"><i class="mdi mdi-car"></i>'.substr($row["title"], 0, 35).'</p>
+        <p style="color: #e65100;"><i class="mdi mdi-format-line-weight"></i>Ksh '.$actual_amount.'<span style="float: right; padding-right:10px;"><i class="mdi mdi-format-line-weight"></i>View Details »</span></p>
+       </div></a>
             </div>
         </div>
         
@@ -32,11 +32,11 @@ $counter =0;
         else {
             echo '
         <div class="item">
-            <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="images/car.jpg" class="img-responsive">
+          <div class="col-md-3 col-sm-4 col-xs-12"><a href="#"><img src="http://smartcars.co.ke/admin/uploads/'.$row['image_path'].'" class="img-responsive">
               <div class="carousel-caption">
         
-             <p style="color: #0C6EED;"><i class="mdi mdi-car"></i>'.substr($row["title"], 0, 35).'</p>
-         <p style="color: #000;"><i class="mdi mdi-format-line-weight"></i>Ksh '.$actual_amount.'</p>
+             <p style="color: #1169F3;"><i class="mdi mdi-car"></i>'.substr($row["title"], 0, 35).'</p>
+         <p style="color: #e65100;"><i class="mdi mdi-format-line-weight"></i>Ksh '.$actual_amount.'<span style="float: right; padding-right:10px;"><i class="mdi mdi-format-line-weight"></i>View Details »</span></p>
       </div></a>
             </div>
         </div>
