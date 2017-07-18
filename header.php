@@ -55,7 +55,7 @@
 
             .img-responsive{
                 width:100%;
-                height:auto;
+                height: 210px;
             }
 
             @media (min-width: 992px ) {
@@ -263,13 +263,18 @@ function populate(id1,id2){
                 <li><a href="tracking.php">Tracking</a></li>
                 <li><a href="importers.php">Importers</a></li>
             </ul>
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="freeagent.php">Individual Seller</a></li>
+                <li><a href="#">Car Dealer</a></li>
+               
+            </ul>
             <nav>
                 <div class="nav-wrapper  green darken-4">
                     <a href="index.php" class="brand-logo"><img src="images/SmartCars-Logo.png" style="height: 65px;"></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services<span class="mdi mdi-chevron-down right" style="line-height: 66px;"></span></a></li>
-                        <li><a href="">Advertise Car</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Advertise Car<span class="mdi mdi-chevron-down right" style="line-height: 66px;"></span></a></li>
                         <li><a href="">My Account</a></li>
                         <li><a href="">Pricing</a></li>
                         <li><a href="">Login/Register</a></li>

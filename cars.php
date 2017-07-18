@@ -59,7 +59,7 @@ if($make == true)
   <div class="col s12 m3">
         <div class="icon-block">
         <a href="">
-            <h2 class="center light-green-text"><img src="images/car.jpg" class="img-responsive" width="100%" height="120px"></h2>
+            <h2 class="center light-green-text"><img src="http://smartcars.co.ke/admin/uploads/'.$row['image_path'].'" class="img-responsive" width="100%" height="120px"></h2>
             <p style="color: #0000; background-color:#eee; height: 70px; padding-top: 5px;margin-top: -22px; "><i class="mdi mdi-car"></i>
             <span style="color: #0C6EED">'.substr($row["title"], 0, 40).'</span>
          <br/><br/><i class="mdi mdi-format-line-weight"></i> Ksh '.number_format($row['actual_amount']).'</p>
@@ -108,7 +108,7 @@ $result = SmartcarDB::getInstance()->get_car_by_search($car_make,$car_model,$min
   <div class="col s12 m3">
         <div class="icon-block">
         <a href="">
-            <h2 class="center light-green-text"><img src="images/car.jpg" class="img-responsive" width="100%" height="120px"></h2>
+            <h2 class="center light-green-text"><img src="http://smartcars.co.ke/admin/uploads/'.$row['image_path'].'" class="img-responsive" width="100%" height="120px"></h2>
             <p style="color: #0000; background-color:#eee; height: 70px; padding-top: 5px;margin-top: -22px; "><i class="mdi mdi-car"></i>
             <span style="color: #0C6EED">'.substr($row["title"], 0, 40).'</span>
          <br/><br/><i class="mdi mdi-format-line-weight"></i>  <span style="color: #0C6EED">Ksh '.number_format($row['actual_amount']).'</p>
